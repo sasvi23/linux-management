@@ -23,9 +23,9 @@ I have created the linux machine in azure acoording to the instructions given in
 
 The screenshots of the Azure virtual machine dashboard and puTTY are linked below.
 
-<img src="images\microsoft-azure-dashboard.png" width="1000" height="300"><br />
+<img src="images\microsoft-azure-dashboard.png" width="1000" height="600"><br />
 
-<img src="images\puTTY.png" width="1000" height="300"><br />
+<img src="images\puTTY.png" width="1000" height="600"><br />
 
 
 
