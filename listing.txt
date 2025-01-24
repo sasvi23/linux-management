@@ -1,0 +1,67 @@
+/var/log
+├── README -> ../../usr/share/doc/systemd/README.logs
+├── alternatives.log
+├── apport.log
+├── apt
+│   ├── eipp.log.xz
+│   ├── history.log
+│   └── term.log
+├── auth.log
+├── auth.log.1
+├── azure
+├── btmp
+├── chrony  [error opening dir]
+├── cloud-init-output.log
+├── cloud-init.log
+├── dist-upgrade
+├── dmesg
+├── dmesg.0
+├── dmesg.1.gz
+├── dmesg.2.gz
+├── dmesg.3.gz
+├── dmesg.4.gz
+├── dpkg.log
+├── journal
+│   └── 358bdbf7dc6b41ffbefc4fd7eeda45b3
+│       ├── system.journal
+│       ├── system@0fc04fc08c9b4b41a596a8a14ee8bac5-0000000000000df0-00062be552e17c49.journal
+│       ├── system@0fc04fc08c9b4b41a596a8a14ee8bac5-00000000000016ab-00062be554b04ca8.journal
+│       ├── system@1a665354ccb3466097de070ddbbad99e-0000000000005e16-00062c6ec67c6e20.journal
+│       ├── system@1a665354ccb3466097de070ddbbad99e-00000000000066d3-00062c6eccb7d40e.journal
+│       ├── system@278c9588b2bb430995fb30f7fc0731ed-0000000000003292-00062c5a5805db6b.journal
+│       ├── system@278c9588b2bb430995fb30f7fc0731ed-0000000000003b4f-00062c5a651a8371.journal
+│       ├── system@44cd82b2876e4b218e3d0e964a8a0cbd-00000000000068a5-00062c7272414512.journal
+│       ├── system@8e3867e9037d4c788f0952c423a691b7-000000000000023e-00062bcf3377bc77.journal
+│       ├── system@9b550466eabb47fabba22589a5d2a948-0000000000001a4d-00062c1fd2c85297.journal
+│       ├── system@9b550466eabb47fabba22589a5d2a948-000000000000230f-00062c1fdb79de7f.journal
+│       ├── system@d15f65a89d704de58e3b418dce25a418-0000000000003c7a-00062c5aec21269c.journal
+│       ├── system@d15f65a89d704de58e3b418dce25a418-0000000000004546-00062c5b20ab792f.journal
+│       ├── user-1000.journal
+│       ├── user-1000@0fc04fc08c9b4b41a596a8a14ee8bac5-00000000000016aa-00062be554aacec9.journal
+│       ├── user-1000@1a665354ccb3466097de070ddbbad99e-00000000000066d2-00062c6eccb3cbe2.journal
+│       ├── user-1000@278c9588b2bb430995fb30f7fc0731ed-0000000000003b4e-00062c5a651754cb.journal
+│       ├── user-1000@8e3867e9037d4c788f0952c423a691b7-0000000000000bf4-00062bcf7b85d90c.journal
+│       ├── user-1000@9b550466eabb47fabba22589a5d2a948-000000000000230e-00062c1fdb7619d8.journal
+│       └── user-1000@d15f65a89d704de58e3b418dce25a418-0000000000004545-00062c5b20a87275.journal
+├── kern.log
+├── kern.log.1
+├── landscape
+│   └── sysinfo.log
+├── lastlog
+├── private  [error opening dir]
+├── syslog
+├── syslog.1
+├── sysstat
+│   ├── sa16
+│   ├── sa17
+│   ├── sa20
+│   ├── sa23
+│   └── sa24
+├── unattended-upgrades
+│   ├── unattended-upgrades-dpkg.log
+│   ├── unattended-upgrades-shutdown.log
+│   └── unattended-upgrades.log
+├── waagent.log
+└── wtmp
+
+11 directories, 54 files
