@@ -17,21 +17,33 @@ A level 2 directory is a directory that is located immediately inside another di
 
 I have typed the below command in order to get the level 2 directories in the command prompt.
 
- <img src="img/level-2-directories.png" width="1000" height="600">
+<br><img src="images\level-2-directories.png" width="800" height="300"><br/>
 
 From the directories I have selected,
 
+- **/usr/bin**
 
-/var/log 
+- **/var/log**
 
-/etc/ssh 
+- **/etc/ssh** 
 
-/usr/local 
+- **/usr/local** 
 
-/usr/bin 
+- **/var/cache**
 
-/var/cache 
+The directory structure of each level 2 directories can be requested as below.
 
 
-The content/listing of filenames are mentioned in the listing.txt.
+<br><img src="images\directory-1.png" width="2000" height="30"><br/>
+
+<br><img src="images\directory-2.png" width="2000" height="30"><br/>
+
+<br><img src="images\directory-3.png" width="2000" height="30"><br/>
+
+<br><img src="images\directory-4.png" width="2000" height="30"><br/>
+
+<br><img src="images\directory-5.png" width="2000" height="30"><br/>
+
+
+The content/listing of filenames for the above mentioned level 2 directories, are mentioned in the **listing.txt**.
 
