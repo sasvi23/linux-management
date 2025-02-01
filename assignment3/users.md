@@ -17,20 +17,22 @@ Present in the lab:
 ####  Task point 1
 - Created the tupu user using the adduser script.
 
-<br><img src= "images\adduser-1.png" width="800" height="300"><br/>
+<br><img src="images\adduser-tupu.png" width="2000" height="150"><br/>
 
 - given a new password and skip on the additional details.
 
-<br><img src="images\adduser-2.png" width="800" height="300"><br/>
+<br><img src="images\adduser-tupu2.png" width="800" height="200"><br/>
 
 
 #### Task point 2
 - Created the Lupu user using the useradd command.
 - Created a user profile, home directory, and user group similar to Tupu.
 
+<br><img src="images\adduser-lupu.png" width="800" height="300"><br/>
+
 - Since I have created the lupu user like the way I made the tupu, i had to ensure that the lupu group exists.
 
-<br><img src="images\lupu-existance.png" width="800" height="300"><br/>
+<br><img src="images\lupu-existance.png" width="2000" height="30"><br/>
 
 - With the detour I did previously, I had to Check if the home directory exists and has the correct ownership.
 
@@ -47,16 +49,17 @@ Present in the lab:
     ```
      3. Third command - This command sets the permissions of the /home/lupu directory to 755. This means the owner (lupu) has read, write, and execute permissions, while the group and others have read and execute permissions.
      ````
-<br><img src="images\lupu-groupadd.png" width="800" height="300"><br/>
+<br><img src="images\lupu-groupadd.png" width="2000" height="25"><br/>
 
 
 - Ensure the lupu user is part of the lupu group.
-<br><img src="images\lupu-home-directory-and-permissions.png" width="800" height="300"><br/>
+
+<br><img src="images\lupu-home-directory-and-permissions.png" width="2000" height="50"><br/>
 
 #### Task point 3
 - Created the Hupu system user with the login shell set to /bin/false.
 
-<br><img src="images\adduser-hupu.png" width="800" height="300"><br/>
+<br><img src="images\adduser-hupu.png" width="2000" height="30"><br/>
 
 ```
 To verify that the user hupu has been created correctly, you can check the /etc/passwd file or use the id command:
@@ -65,16 +68,16 @@ To verify that the user hupu has been created correctly, you can check the /etc/
     - Check the /etc/passwd file
     - Check the ID
 
-<br><img src="images\hupu-existance.png" width="800" height="300"><br/>
+<br><img src="images\hupu-existance.png" width="2000" height="40"><br/>
 
-<br><img src="images\id-hupu.png" width="800" height="300"><br/>
+<br><img src="images\id-hupu.png" width="2000" height="40"><br/>
 
 - This confirms that hupu was created successfully.
 
 #### Task point 4
 - Added the users Tupu and Lupu to the sudo users.
 
-<br><img src="images\adding-users-to-sudo.png" width="800" height="300"><br/>
+<br><img src="images\adding-users-to-sudo.png" width="2000" height="30"><br/>
 
 #### Task point 5
 - Created a directory /opt/projekti and add both users (Tupu and Lupu) as owners,with Only Tupu and Lupu should have access to list files in the directory, read, and modify them.
@@ -115,4 +118,4 @@ To verify that the user hupu has been created correctly, you can check the /etc/
     > The command sudo chmod g+s /opt/projekti sets the setgid bit, ensuring that any new files or directories created within /opt/projekti inherit the projekti group ownership.
 
 
-<br><img src="images\create-directory-and-add-users.png" width="800" height="300"><br/>
+<br><img src="images\create-directory-and-add-users.png" width="2000" height="150"><br/>
